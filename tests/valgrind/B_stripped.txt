@@ -1,27 +1,27 @@
-==1446971== Memcheck, a memory error detector
-==1446971== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
-==1446971== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
-==1446971== Command: ../y86 -H inputs/stripped.o
-==1446971== 
+==1693727== Memcheck, a memory error detector
+==1693727== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==1693727== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==1693727== Command: ../y86 -H inputs/stripped.o
+==1693727== 
 01 00 00 01 10 00 02 00  00 00 00 00 45 4c 46 00
 Mini-ELF version 1
 Entry point 0x100
 There are 2 program headers, starting at offset 16 (0x10)
 There is no symbol table present
 There is no string table present
-==1446971== 
-==1446971== HEAP SUMMARY:
-==1446971==     in use at exit: 472 bytes in 1 blocks
-==1446971==   total heap usage: 3 allocs, 2 frees, 16,856 bytes allocated
-==1446971== 
-==1446971== LEAK SUMMARY:
-==1446971==    definitely lost: 0 bytes in 0 blocks
-==1446971==    indirectly lost: 0 bytes in 0 blocks
-==1446971==      possibly lost: 0 bytes in 0 blocks
-==1446971==    still reachable: 472 bytes in 1 blocks
-==1446971==         suppressed: 0 bytes in 0 blocks
-==1446971== Reachable blocks (those to which a pointer was found) are not shown.
-==1446971== To see them, rerun with: --leak-check=full --show-leak-kinds=all
-==1446971== 
-==1446971== For lists of detected and suppressed errors, rerun with: -s
-==1446971== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==1693727== 
+==1693727== HEAP SUMMARY:
+==1693727==     in use at exit: 472 bytes in 1 blocks
+==1693727==   total heap usage: 3 allocs, 2 frees, 16,856 bytes allocated
+==1693727== 
+==1693727== LEAK SUMMARY:
+==1693727==    definitely lost: 0 bytes in 0 blocks
+==1693727==    indirectly lost: 0 bytes in 0 blocks
+==1693727==      possibly lost: 0 bytes in 0 blocks
+==1693727==    still reachable: 472 bytes in 1 blocks
+==1693727==         suppressed: 0 bytes in 0 blocks
+==1693727== Reachable blocks (those to which a pointer was found) are not shown.
+==1693727== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==1693727== 
+==1693727== For lists of detected and suppressed errors, rerun with: -s
+==1693727== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

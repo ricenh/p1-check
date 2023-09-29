@@ -6,9 +6,9 @@ B_multisegment                 pass
 B_stripped                     pass
 B_stack                        pass
 A_invalid_param                pass
-A_invalid_multi_files          FAIL (see tests/outputs/A_invalid_multi_files.diff for details)
-A_invalid_multi_params         FAIL (see tests/outputs/A_invalid_multi_params.diff for details)
-A_missing_filename             FAIL (see tests/outputs/A_missing_filename.diff for details)
+A_invalid_multi_files          pass
+A_invalid_multi_params         pass
+A_missing_filename             pass
 A_nonexistent_file             pass
 A_bad_magic                    pass
 A_short_header                 pass
