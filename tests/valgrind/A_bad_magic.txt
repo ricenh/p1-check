@@ -1,25 +1,22 @@
-==1315591== Memcheck, a memory error detector
-==1315591== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
-==1315591== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
-==1315591== Command: ../y86 -H inputs/bad-no_elf.o
-==1315591== 
-Usage: ../y86 <option(s)> mini-elf-file
- Options are:
-  -h      Display usage
-  -H      Show the Mini-ELF header
-==1315591== 
-==1315591== HEAP SUMMARY:
-==1315591==     in use at exit: 472 bytes in 1 blocks
-==1315591==   total heap usage: 3 allocs, 2 frees, 16,856 bytes allocated
-==1315591== 
-==1315591== LEAK SUMMARY:
-==1315591==    definitely lost: 0 bytes in 0 blocks
-==1315591==    indirectly lost: 0 bytes in 0 blocks
-==1315591==      possibly lost: 0 bytes in 0 blocks
-==1315591==    still reachable: 472 bytes in 1 blocks
-==1315591==         suppressed: 0 bytes in 0 blocks
-==1315591== Reachable blocks (those to which a pointer was found) are not shown.
-==1315591== To see them, rerun with: --leak-check=full --show-leak-kinds=all
-==1315591== 
-==1315591== For lists of detected and suppressed errors, rerun with: -s
-==1315591== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==1447310== Memcheck, a memory error detector
+==1447310== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==1447310== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==1447310== Command: ../y86 -H inputs/bad-no_elf.o
+==1447310== 
+Failed to read file
+==1447310== 
+==1447310== HEAP SUMMARY:
+==1447310==     in use at exit: 472 bytes in 1 blocks
+==1447310==   total heap usage: 3 allocs, 2 frees, 16,856 bytes allocated
+==1447310== 
+==1447310== LEAK SUMMARY:
+==1447310==    definitely lost: 0 bytes in 0 blocks
+==1447310==    indirectly lost: 0 bytes in 0 blocks
+==1447310==      possibly lost: 0 bytes in 0 blocks
+==1447310==    still reachable: 472 bytes in 1 blocks
+==1447310==         suppressed: 0 bytes in 0 blocks
+==1447310== Reachable blocks (those to which a pointer was found) are not shown.
+==1447310== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==1447310== 
+==1447310== For lists of detected and suppressed errors, rerun with: -s
+==1447310== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

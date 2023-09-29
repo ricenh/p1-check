@@ -32,7 +32,8 @@ void usage_p1 (char **argv)
 
 bool parse_command_line_p1 (int argc, char **argv, bool *print_header, char **filename)
 {
-    if(argc <= 1 || argv == NULL || print_header == NULL || filename == NULL) {
+    if(argc <= 1 || argv == NULL || print_header == NULL) 
+    {
         return false;
     }
     bool help = false;
@@ -48,18 +49,23 @@ bool parse_command_line_p1 (int argc, char **argv, bool *print_header, char **fi
                 *print_header = true;
                 break;
             default:
+                usage_p1(argv);
                 return false;
 
         }
     }
-    if(help) {
+    if(help) 
+    {
         usage_p1(argv);
         return true;
-    } else {
-         if (optind < argc) {
+    } else 
+    {
+         if (optind < argc)
+        {
             *filename = argv[optind];
             return true; 
-        } else {
+        } else 
+        {
             return false; 
         }
     }
