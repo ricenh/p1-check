@@ -1,0 +1,19 @@
+C_simple_hex                   pass
+C_no_output                    pass
+B_help                         pass
+B_simple_full                  pass
+B_multisegment                 pass
+B_stripped                     pass
+B_stack                        pass
+A_invalid_param                FAIL (see tests/outputs/A_invalid_param.diff for details)
+A_invalid_multi_files          FAIL (see tests/outputs/A_invalid_multi_files.diff for details)
+A_invalid_multi_params         FAIL (see tests/outputs/A_invalid_multi_params.diff for details)
+A_missing_filename             FAIL (see tests/outputs/A_missing_filename.diff for details)
+A_nonexistent_file             FAIL (see tests/outputs/A_nonexistent_file.diff for details)
+A_bad_magic                    FAIL (see tests/outputs/A_bad_magic.diff for details)
+A_short_header                 FAIL (see tests/outputs/A_short_header.diff for details)
+A_bad_magic_no_H               FAIL (see tests/outputs/A_bad_magic_no_H.diff for details)
+A_short_header_no_H            FAIL (see tests/outputs/A_short_header_no_H.diff for details)
+No memory leak found.
+Uninitialized value(s) found. See files listed below for details.
+  - tests/valgrind/B_help.txt

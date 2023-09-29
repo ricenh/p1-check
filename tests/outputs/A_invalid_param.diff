@@ -1,0 +1,7 @@
+--- outputs/A_invalid_param.txt	2023-09-29 15:38:08.932235902 -0400
++++ expected/A_invalid_param.txt	2023-09-19 12:28:23.000000000 -0400
+@@ -0,0 +1,4 @@
++Usage: ../y86 <option(s)> mini-elf-file
++ Options are:
++  -h      Display usage
++  -H      Show the Mini-ELF header
